@@ -26,8 +26,8 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
-          if: github.event.pull_request.merged == true
-          publish: pnpm run publish
+          if: steps.changesets.outputs.hasChangesets == 'false'
+          publish: pnpm run pub
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
