@@ -4,5 +4,5 @@ export function test(a: number, b: number) {
 }
 
 export function otherTest() {
-    return true
+    return false
 }
