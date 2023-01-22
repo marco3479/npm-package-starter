@@ -26,7 +26,6 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
-          if: steps.changesets.outputs.hasChangesets == 'false'
           publish: pnpm run pub
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
