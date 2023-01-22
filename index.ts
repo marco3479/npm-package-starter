@@ -1,4 +1,4 @@
 
 export function test(a: number, b: number) {
-    return (a + b)
+    return 'This will be the best package ever'
 }
