@@ -7,7 +7,7 @@
     "types": "dist/index.d.ts",
     "scripts": {
         "build": "tsup index.ts --format cjs,esm --dts",
-        "publish": "npm run build && npm publish --access public",
+        "publish": "npm run build",
         "lint": "tsc"
     },
     "devDependencies": {
