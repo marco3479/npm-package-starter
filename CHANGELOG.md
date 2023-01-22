@@ -1,5 +1,11 @@
 # pk-components
 
+## 0.1.1
+
+### Patch Changes
+
+- e7d1a39: testing publish
+
 ## 0.1.0
 
 ### Minor Changes
