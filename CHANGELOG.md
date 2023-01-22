@@ -1,5 +1,14 @@
 # pk-components
 
+## 0.1.7
+
+### Patch Changes
+
+- a280311: adjusted github publish action
+- 7bbee67: other try
+- adeee5a: test
+- 484c51b: new test
+
 ## 0.1.6
 
 ### Patch Changes
