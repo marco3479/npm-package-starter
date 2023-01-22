@@ -1,13 +1,13 @@
 {
     "name": "pk-components",
     "license": "MIT",
-    "version": "0.1.9",
+    "version": "0.1.6",
     "main": "dist/index.js",
     "module": "dist/index.mjs",
     "types": "dist/index.d.ts",
     "scripts": {
         "build": "tsup index.ts --format cjs,esm --dts",
-        "publish": "npm run build && pnpm changeset publish",
+        "publish": "npm run build npm publish --access public",
         "lint": "tsc"
     },
     "devDependencies": {
