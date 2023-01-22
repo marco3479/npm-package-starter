@@ -1,10 +1,9 @@
 name: Publish
 on:
-  pull_request:
+  push:
     branches:
       - "master"
-    type:
-      - closed
+
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
