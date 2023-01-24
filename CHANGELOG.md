@@ -1,5 +1,11 @@
 # pk-components
 
+## 0.1.12
+
+### Patch Changes
+
+- 5fedc37: made private
+
 ## 0.1.11
 
 ### Patch Changes
