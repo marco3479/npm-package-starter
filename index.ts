@@ -9,8 +9,7 @@ export function testing(t: number, u: number, f: number) {
     return [t, u, f];
 }
 
-type AddFunction = (a: number, b: number) => number
 
-export const add: AddFunction = (a: number, b: number) => {
+export const add = (a: number, b: number) => {
     return a + b
 }

@@ -1,5 +1,5 @@
 {
-    "name": "pk-components",
+    "name": "@perignosia/components",
     "license": "MIT",
     "version": "0.1.11",
     "main": "dist/index.js",
@@ -7,7 +7,7 @@
     "types": "dist/index.d.ts",
     "scripts": {
         "build": "tsup index.ts --format cjs,esm --dts",
-        "pub": "pnpm run build && npm publish --access public",
+        "pub": "pnpm run build && npm publish",
         "lint": "tsc"
     },
     "devDependencies": {
