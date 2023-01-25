@@ -1,7 +1,5 @@
 
-# Perignosia's Component NPM Package
-
-### ! TEST WITH CREATING OTHER BRANCHES
+# NPM Package Starter
 
 ## Do the following actions to ultimately publish
 
