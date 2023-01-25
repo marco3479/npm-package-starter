@@ -1,5 +1,5 @@
 {
-    "name": "",
+    "name": "npm-package-starter",
     "version": "",
     "main": "dist/index.js",
     "module": "dist/index.mjs",
