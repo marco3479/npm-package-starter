@@ -13,3 +13,7 @@ export function testing(t: number, u: number, f: number) {
 export const add = (a: number, b: number) => {
     return a + b
 }
+
+export const kyubas = (a: string, b: number) => {
+    return a
+}

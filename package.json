@@ -1,6 +1,5 @@
 {
     "name": "@perignosia/components",
-    "license": "MIT",
     "version": "0.1.12",
     "main": "dist/index.js",
     "module": "dist/index.mjs",
