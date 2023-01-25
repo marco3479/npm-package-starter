@@ -1,5 +1,11 @@
 # pk-components
 
+## 0.1.13
+
+### Patch Changes
+
+- 11308f3: Updated README.md
+
 ## 0.1.12
 
 ### Patch Changes
